@@ -98,6 +98,7 @@ const CONFIG = {
     'Storytelling',
     'Account Management',
     'Problem Solving',
+    'SQL',
     'Hubspot',
     'PostGRE',
     'Python',
@@ -152,7 +153,7 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'chAMP1R3', // to hide blog section, keep it empty
+    username: 'champ1r3', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
