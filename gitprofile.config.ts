@@ -119,10 +119,14 @@ const CONFIG = {
     {
       institution: 'Codecademy',
       degree: 'Python, Advanced SQL, Data Science: Analytics Specialist, Intro to [web3], Blockchain, and Crypto',
+      from: '0',
+      to: '1',
     },
     {
       institution: 'University of Oklahoma',
       degree: 'Bachelor of Science - Zoology',
+      from: '0',
+      to: '1',
     },
   ],
   publications: [
