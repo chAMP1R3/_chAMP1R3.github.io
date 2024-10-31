@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'chAMP1R3', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -13,53 +13,53 @@ const CONFIG = {
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'Github Projects',
+      header: 'Team Enablement',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['chAMP1R3/chAMP1R3', 'chAMP1R3/chAMP1R3.github.io'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['chAMP1R3/Decks', 'chAMP1R3/CRM-Tracking'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Thought Leadership',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Indiegogos Go Time Podcast',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Webby submitted podcast showcasing my subject matter expertise as co-host',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://i.ibb.co/Y7rygQD/Screenshot-2024-10-30-at-22-05-11.png',
+          link: 'https://open.spotify.com/show/7bEdWFbpv3rKHotpDzcCV4?si=44a8ae1c2f674ce0',
         },
         {
-          title: 'Project Name',
+          title: 'Qualcomm & Techstars Startup Series - Financing Your Venture',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Featured Guest Lecturer',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://i.ibb.co/CVGmMS6/2108310640331235247398.png',
+          link: 'https://www.accupass.com/event/2108310245431809667317',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
-    description: '',
-    imageURL: '',
+    title: 'Portfolio of Stacy Bradford',
+    description: 'jkdafjhdfjk',
+    imageURL: 'https://i.ibb.co/CVGmMS6/2108310640331235247398.png',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'stacy-bradford',
+    twitter: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -69,91 +69,80 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'StacyDBradford@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/drive/u/0/folders/145E7ndJMRyE0MoKgoVjbOjKKICY-Lv06', // Empty fileUrl will hide the `Download Resume` button.
   },
+
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'SANDLER',
+    'MEDDIC',
+    'GAP',
+    'SPIN',
+    'Challenger',
+    'Complex Sales',
+    'Hunting',
+    'Customer Success',
+    'Cross Selling',
+    'Upselling',
+    'Cold Calling',
+    'Storytelling',
+    'Account Management',
+    'Problem Solving',
+    'Hubspot',
+    'PostGRE',
+    'Python',
+    'Looker',
+    'Salesforce',
+    'Outreach.io',
+    'OpenAI',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Earthmover - The Github of Scientific Data',
+      position: 'Chief Vibes Officer Emeritus',
+      from: 'February 2099',
       to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
-  ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      companyLink: 'https://earthmover.io',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Codecademy',
+      degree: 'Python, Advanced SQL, Data Science: Analytics Specialist, Intro to [web3], Blockchain, and Crypto',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'University of Oklahoma',
+      degree: 'Bachelor of Science - Zoology',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'Greentech Is On The Rise And Crowdfunding Platform Indiegogo Is Leading The Charge',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      journalName: 'Forbes',
+      authors: 'Christopher Marquis',
+      link: 'https://www.forbes.com/sites/christophermarquis/2021/08/09/greentech-is-on-the-rise-and-crowdfunding-platform-indiegogo-is-leading-the-charge/',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Ask me about the playbook that led to this earned media.  This is where I cut my proverbial professional teeth.',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'A Silent Supermajority: The Risk of Greenwashing in Crowdfunding',
+      conferenceName: '',
+      journalName: 'Tech Ideas For Good',
+      authors: 'Stacy Bradford',
+      link: 'https://web.archive.org/web/20220125071647/https://www.techideasforgood.com/idea-pages/greenwashing',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Guest post on a short-lived partnered blog and inspiration for Indiegogo Earth Day messaging ',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
@@ -171,11 +160,11 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
