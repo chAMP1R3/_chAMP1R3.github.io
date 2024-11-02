@@ -11,22 +11,27 @@ const CONFIG = {
    */
   base: '/',
   projects: {
-    github: {
-      display: true, // Display GitHub projects?
-      header: 'Team Enablement',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
-      automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
-        exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: ['chAMP1R3/chAMP1R3', 'chAMP1R3/chAMP1R3.github.io'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+    external: {
+      header: 'Thought Leadership',
+      // To hide the `External Projects` section, keep it empty.
+      projects: [
+        {
+          title: 'Indiegogos Go Time Podcast',
+          description:
+            'Webby submitted podcast showcasing my subject matter expertise as co-host',
+          imageUrl:
+            'https://i.ibb.co/Y7rygQD/Screenshot-2024-10-30-at-22-05-11.png',
+          link: 'https://open.spotify.com/show/7bEdWFbpv3rKHotpDzcCV4?si=44a8ae1c2f674ce0',
         },
-      },
-      manual: {
-        // Properties for manually specifying projects
-        projects: ['chAMP1R3/Decks', 'chAMP1R3/CRM-Tracking'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
-      },
+        {
+          title: 'Qualcomm & Techstars Startup Series - Financing Your Venture',
+          description:
+            'Featured Guest Lecturer',
+          imageUrl:
+            'https://i.ibb.co/CVGmMS6/2108310640331235247398.png',
+          link: 'https://www.accupass.com/event/2108310245431809667317',
+        },
+      ],
     },
     external: {
       header: 'Thought Leadership',
@@ -49,6 +54,23 @@ const CONFIG = {
           link: 'https://www.accupass.com/event/2108310245431809667317',
         },
       ],
+    },
+  github: {
+      display: true, // Display GitHub projects?
+      header: 'Team Enablement',
+      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      automatic: {
+        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+        limit: 8, // How many projects to display.
+        exclude: {
+          forks: false, // Forked projects will not be displayed if set to true.
+          projects: ['chAMP1R3/chAMP1R3', 'chAMP1R3/chAMP1R3.github.io'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        },
+      },
+      manual: {
+        // Properties for manually specifying projects
+        projects: ['chAMP1R3/Decks', 'chAMP1R3/CRM-Tracking'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+      },
     },
   },
   seo: {
