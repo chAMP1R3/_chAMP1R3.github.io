@@ -79,7 +79,7 @@ const CONFIG = {
     imageURL: 'https://i.ibb.co/CVGmMS6/2108310640331235247398.png',
   },
   social: {
-    linkedin: 'stacy-bradford',
+    linkedin: 'stacy-',
     twitter: '',
     mastodon: '',
     researchGate: '',
